@@ -1,0 +1,8 @@
+Robbie Mills, 04.03.2016
+Passing by Vaue vs Passing by reference.
+
+Passing by Vaue:
+Passing by value or passing by copy is when a primitive value (Classless variable) is passed into a function.  Any changes made to something that has been passed by value will not effect the original copy - Therefore, in the case of the problem we have been assigned, the x and y positions that have been set in memory do not change when the copied value changes and this causes the rect. to stay in the same position.
+
+Passing by Reference:
+Passing by reference is when a reference to an object is passed into a function.  When the value of a variable is changed using this method the original variable is also changed (if this object is then deleted, the original value will not be deleted) - Therefore, in the case of the problem we have been assigned, the x and y position values of the exampleTile object are updated as they have been passed by reference from the Tile class.
